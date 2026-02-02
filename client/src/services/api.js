@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://student-task-manager-1mcu.onrender.com/api';
 
 // Helper to get auth headers
 const getAuthHeaders = () => {
