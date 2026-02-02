@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Root route
-app.get("/", (req, res) => {
+app.all("/", (req, res) => {
   res.json({
     success: true,
     message: "Student Task Manager API is running 🚀",
